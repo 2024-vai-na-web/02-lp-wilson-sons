@@ -1,8 +1,119 @@
-header {
+.wrapper {
+  width: 144rem;
+}
+
+.header {
   align-items: center;
   background-color: #D9D9D9;
   display: flex;
+  height: 15.2rem;
   justify-content: center;
   width: 100vw;
-  height: 15.2rem;
+}
+.header__wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7rem;
+}
+.header__brand {
+  background: url("../img/logo.svg") no-repeat;
+  height: 5rem;
+  text-indent: -999rem;
+  width: 30rem;
+}
+.header .nav__wrapper {
+  width: 64rem;
+}
+.header .nav__list {
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+}
+.header .nav__link > span {
+  color: #000;
+  font-family: "Kite One", Arial, sans-serif;
+  font-size: 3.2rem;
+}
+
+.main {
+  align-items: center;
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0 10rem 0;
+  width: 100vw;
+}
+.main__wrapper {
+  display: flex;
+  gap: 6.5rem;
+  width: 117rem;
+}
+.main .card__wrapper {
+  display: flex;
+  gap: 6.5rem;
+  max-height: 61.5rem;
+  width: 100%;
+}
+.main .card__content {
+  align-items: center;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  font-family: Inika, Arial, sans-serif;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  text-align: center;
+}
+.main .card__texts-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.main .card__title {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.main .card__text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-align: center;
+}
+.main .card__button {
+  background-color: #D9D9D9;
+  border: 0;
+  border-radius: 5rem;
+  cursor: pointer;
+  display: block;
+  height: 6.22rem;
+  width: 20.5rem;
+}
+.main .card__button > span {
+  color: #000;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.footer {
+  align-items: center;
+  background-color: #001C43;
+  bottom: 0;
+  display: flex;
+  height: 8.3rem;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+.footer__wrapper {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.footer__copyright, .footer__dev {
+  color: #FFF;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 2rem;
 }/*# sourceMappingURL=styles.css.map */
