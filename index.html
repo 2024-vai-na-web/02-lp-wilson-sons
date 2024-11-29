@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <header>
-    <h1><span>Wilson Sons</span></h1>
+  <header class="header__wrapper">
+    <h1 class="header__brand">Wilson Sons</h1>
     <nav class="nav__wrapper">
       <ul class="nav__list">
         <li class="nav__item"><a href="#" class="nav__link"><span>Sobre Nós</span></a></li>
@@ -24,25 +24,26 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
-      <article>
-        <h2>Wilson Sons</h2>
-        <p>A Wilson Sons é o maior operador de logística portuária e marítima do mercado brasileiro, com mais de 186 anos de
+
+  <main class="header__wrapper">
+    <section class="card__wrapper">
+      <article class="card__content">
+        <h2 class="card__title">Wilson Sons</h2>
+        <p class="card__text">A Wilson Sons é o maior operador de logística portuária e marítima do mercado brasileiro, com mais de 186 anos de
         experiência. A companhia tem abrangência nacional e oferece soluções completas para mais de 5 mil clientes, incluindo
         armadores, importadores e exportadores, indústria de energia offshore, projetos de energia renovável, setor do
         agronegócio, além de outros participantes em diversos segmentos da economia.</p>
       </article>
-      <img src="./img/porto.png" alt="Vista superior do porto com navio cargueiro atracado cheio de containers de diversas cotes">
+      <img class="card__image" src="./img/porto.png" alt="Vista superior do porto com navio cargueiro atracado cheio de containers de diversas cotes">
     </section>
 
 
-    <section>
-      <img src="./img/navio-cargueiro.png" alt="vista trazeira de um navio cargueiro carregado com vários containers de diversas cores">
-      <article>
-        <h2>Logística internacional</h2>
-        <p>100% neutra no transporte de carga consolidada LCL e aéreo, além de serviços complementares na cadeia logística.</p>
-        <button>Contato</button>
+    <section class="card__wrapper">
+      <img class="card__image" src="./img/navio-cargueiro.png" alt="vista trazeira de um navio cargueiro carregado com vários containers de diversas cores">
+      <article class="card__content">
+        <h2 class="card__title">Logística internacional</h2>
+        <p class="card__text">100% neutra no transporte de carga consolidada LCL e aéreo, além de serviços complementares na cadeia logística.</p>
+        <button class="card__button">Contato</button>
       </article>
     </section>
   </main>
@@ -50,9 +51,7 @@
 
   <footer class="footer__wrapper">
     <p class="footer__copyright">© 2024. Esta página foi criada para fins educacionais pela Escola Vai na Web, com base no site da empresa Wilson Sons.</p>
-    <div>
-      <p>Desenvolvido por: <span>Romulo Rosa</span></p>
-    </div>
+    <p class="footer__dev">Desenvolvido por: <span>Romulo Rosa</span></p>
   </footer>
 </body>
 </html>
