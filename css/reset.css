@@ -81,4 +81,10 @@ h6 {
 p {
   overflow-wrap: break-word;
   text-wrap: pretty;
+}
+
+a {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
 }/*# sourceMappingURL=reset.css.map */
